@@ -109,7 +109,6 @@ export function initJiraSvc(config: JiraConfig, githubSvc: GithubSvc, terse: boo
     const pullRequests = [];
 
     for (const pr of data.detail[0].pullRequests) {
-      console.log(pr);
       const repo = pr.repositoryUrl.split("/").pop()!;
       const pullNumber = parseInt(pr.id.replace("#", ""));
 
