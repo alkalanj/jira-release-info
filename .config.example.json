@@ -1,0 +1,11 @@
+{
+  "github": {
+    "personalAccessToken": "<github-personal-access-token-classic>",
+    "repoOwner": "<repo-owner,organization-or-personal-account>"
+  },
+  "jira": {
+    "email": "<JIRA-user-email>",
+    "apiToken": "<JIRA-API-token>",
+    "jiraHost": "<JIRA-host,e.g.:https://companyname.atlassian.net>"
+  }
+}
